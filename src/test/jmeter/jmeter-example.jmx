@@ -102,7 +102,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -187,12 +187,12 @@
             </elementProp>
             <elementProp name="influxDBURL" elementType="Argument">
               <stringProp name="Argument.name">influxDBURL</stringProp>
-              <stringProp name="Argument.value">https://perfplatform.cloud.sysco.net/influx</stringProp>
+              <stringProp name="Argument.value">https://influxdb-2-test-release-influxdb2.qa:80</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBToken" elementType="Argument">
               <stringProp name="Argument.name">influxDBToken</stringProp>
-              <stringProp name="Argument.value">9eanu4pcTwhfcQ9CyMAFoeAoXlYv08Efs4iFnGEneGaKXNO9AgSMQnrXnQfZNi8LoO86HV6PpOVB2kcSU3h8Lw==</stringProp>
+              <stringProp name="Argument.value">ynC-g9gA-TF0_g2FD-MCEEu0M4iriv7gLVb7_lj4KHPHbkCQV769mLO7q4zYpiNrFOdq8YWGUB1Obl0-vZ-ZCg==</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBOrganization" elementType="Argument">
@@ -202,7 +202,7 @@
             </elementProp>
             <elementProp name="influxDBBucket" elementType="Argument">
               <stringProp name="Argument.name">influxDBBucket</stringProp>
-              <stringProp name="Argument.value">prod_jmeter</stringProp>
+              <stringProp name="Argument.value">chamikara-jmeter</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBFlushInterval" elementType="Argument">
