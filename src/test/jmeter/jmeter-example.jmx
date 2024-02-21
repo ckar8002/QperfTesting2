@@ -187,7 +187,7 @@
             </elementProp>
             <elementProp name="influxDBURL" elementType="Argument">
               <stringProp name="Argument.name">influxDBURL</stringProp>
-              <stringProp name="Argument.value">influxdb-2-test-release-influxdb2.qa:80</stringProp>
+              <stringProp name="Argument.value">https://influxdb-2-test-release-influxdb2.qa:80</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBToken" elementType="Argument">
