@@ -102,7 +102,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -187,12 +187,12 @@
             </elementProp>
             <elementProp name="influxDBURL" elementType="Argument">
               <stringProp name="Argument.name">influxDBURL</stringProp>
-              <stringProp name="Argument.value">https://influxdb-2-test-release-influxdb2-0.qa:80</stringProp>
+              <stringProp name="Argument.value">https://influxdb-2-test-release-influxdb2-0</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBToken" elementType="Argument">
               <stringProp name="Argument.name">influxDBToken</stringProp>
-              <stringProp name="Argument.value">ynC-g9gA-TF0_g2FD-MCEEu0M4iriv7gLVb7_lj4KHPHbkCQV769mLO7q4zYpiNrFOdq8YWGUB1Obl0-vZ-ZCg==</stringProp>
+              <stringProp name="Argument.value">qayjFZxwn0dyFqCk0Oq7Px-1S-FvjQnVOnB5jpDyL4TmNiayZTaEl2ozZxcRSewMhdJqNajcbSs5LFkhypuQLA==</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBOrganization" elementType="Argument">
